@@ -6,7 +6,7 @@ This project converts images to vector graphics (SVG) using Python. It reads an 
 
 1. Clone the repository:
     ```sh
-    git clone https://github.com/yourusername/ImageToVector.git
+    git clone https://github.com/HamzaMehboob/ImageToVector.git
     cd ImageToVector
     ```
 
@@ -17,16 +17,10 @@ This project converts images to vector graphics (SVG) using Python. It reads an 
 
 ## Usage
 
-1. Place your input image in the `ImageToVector` directory and name it `input_image.png`.
+1. Place your input image in the `ImageToVector/Examples` directory and name it `input_image.png`.
 2. Run the conversion script:
     ```sh
-    python convert_to_vector.py
+    python Examples/sample.py
     ```
 
-3. The output SVG file will be saved as `output_image.svg`.
-
-## Example
-
-An example script is provided in the `Example` directory. You can run it as follows:
-```sh
-python Example/sample.py
+3. The output SVG file will be saved as `output_image.svg` in `Example` folder .
